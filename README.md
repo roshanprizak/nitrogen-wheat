@@ -43,9 +43,25 @@ When using `knitr`, ensure that the first code chunk `setup` has the option `eva
 
 # Answers to questions
 
+## Question 1
+
+1. Global map of wheat production volume in million tons (Mt) - `outputs/Wheat_produced.pdf` and `outputs/Wheat_produced.png`
+2. Raster file (GeoTIFF) of wheat production volume - `outputs/wheat_production_Mt.tif`
+
+## Question 2
+
+1. Wheat production at country level - `outputs/wheat_production_Mt_by_country.csv`
+
+## Question 3
+
+1. Raster file (GeoTIFF) of nitrogen output as 2% of harvested wheat - `outputs/nitrogen_output_Mt.tif`
+2. Global map of nitrogen output as 2% of harvested wheat - `outputs/Nitrogen_output.pdf` and `outputs/Nitrogen_output.png`
+
 ## Question 4 - Main patterns of nitrogen losses across countries
 
-China and India, the top two countries with the highest wheat production volumes, are also the countries with the largest nitrogen losses, suggesting that higher production can lead to more significant nitrogen losses. However, for the third largest producer of wheat, the USA, nitrogen loss is comparatively lower, suggesting better nitrogen management and/or efficient utilization. France, ranked 5, has the least relative losses, indicating excellent nitrogen management. On the other, Pakistan, ranked 8, experiences the greatest relative losses, indicating potential inefficiencies in nitrogen utilization. Interestingly, the USA and Pakistan have very similar nitrogen inputs but the USA, with better nitrogen management, has significantly larger nitrogen in its harvested wheat compared to Pakistan.
+a. Nitrogen inputs, outputs and losses of top 10 wheat producing countries - `outputs/top10_countries_nitrogen.csv`
+b. Summary figure for nitrogen outputs and losses of top 10 countries - `outputs/Nitrogen_output_loss.pdf` and `outputs/Nitrogen_output_loss.png`
+c. China and India, the top two countries with the highest wheat production volumes, are also the countries with the largest nitrogen losses, suggesting that higher production can lead to more significant nitrogen losses. However, for the third largest producer of wheat, the USA, nitrogen loss is comparatively lower, suggesting better nitrogen management and/or efficient utilization. France, ranked 5, has the least relative losses, indicating excellent nitrogen management. On the other, Pakistan, ranked 8, experiences the greatest relative losses, indicating potential inefficiencies in nitrogen utilization. Interestingly, the USA and Pakistan have very similar nitrogen inputs but the USA, with better nitrogen management, has significantly larger nitrogen in its harvested wheat compared to Pakistan.
 
 ## Question 5
 
